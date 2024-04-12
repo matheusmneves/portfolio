@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="styles.css" />
+        <title>CSS Cheat Sheet</title>
+    </head>
+    <body>
+
+        <nav>
+            <div class="nav__content">
+                <div class="logo"><a href="#">Matheus Neves</a></div>
+                <label for="check" class="checkbox">
+                <i class="ri-menu-line"></i>
+                </label>
+                <input type="checkbox" name="check" id="check" />
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="#">Cheat sheet</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <section id="sheet">
+            <p class="section__text__p1">GET TO KNOW MORE</p>
+            <h1 class="title">CSS Cheat Sheet</h1><br/>
+                <div class="about-details-container">
+                    <table>
+                        <tr>
+                            <th>Selector / Property</th>
+                            <th>Description</th>
+                        </tr>
+                        <tr>
+                            <td><code>*</code></td>
+                            <td>Selects all elements</td>
+                        </tr>
+                        <tr>
+                            <td><code>body</code></td>
+                            <td>Selects the body element</td>
+                        </tr>
+                        <tr>
+                            <td><code>html</code></td>
+                            <td>Represents the root of the document</td>
+                        </tr>
+                        <tr>
+                            <td><code>p</code></td>
+                            <td>Defines a paragraph</td>
+                        </tr>
+                        <tr>
+                            <td><code>a</code></td>
+                            <td>Defines a hyperlink</td>
+                        </tr>
+                        <tr>
+                            <td><code>.class</code></td>
+                            <td>Selects elements with a specific class</td>
+                        </tr>
+                        <tr>
+                            <td><code>#id</code></td>
+                            <td>Selects an element with a specific id</td>
+                        </tr>
+                        <tr>
+                            <td><code>hover</code></td>
+                            <td>Applies styles when hovering over an element</td>
+                        </tr>
+                        <tr>
+                            <td><code>transition</code></td>
+                            <td>Adds smooth transitions to property changes</td>
+                        </tr>
+                        <tr>
+                            <td><code>@import</code></td>
+                            <td>Imports external style sheets</td>
+                        </tr>
+                        <tr>
+                            <td><code>font-family</code></td>
+                            <td>Sets the font family for text</td>
+                        </tr>
+                        <tr>
+                            <td><code>color</code></td>
+                            <td>Sets the color of text</td>
+                        </tr>
+                        <tr>
+                            <td><code>background-color</code></td>
+                            <td>Sets the background color of an element</td>
+                        </tr>
+                        <tr>
+                            <td><code>width</code></td>
+                            <td>Sets the width of an element</td>
+                        </tr>
+                        <tr>
+                            <td><code>height</code></td>
+                            <td>Sets the height of an element</td>
+                        </tr>
+                        <tr>
+                            <td><code>margin</code></td>
+                            <td>Sets the margin around an element</td>
+                        </tr>
+                        <tr>
+                            <td><code>padding</code></td>
+                            <td>Sets the padding inside an element</td>
+                        </tr>
+                        <tr>
+                            <td><code>border</code></td>
+                            <td>Sets the border of an element</td>
+                        </tr>
+                        <tr>
+                            <td><code>display</code></td>
+                            <td>Sets how an element is displayed</td>
+                        </tr>
+                        <tr>
+                            <td><code>flex</code></td>
+                            <td>Specifies the ability of a flex item to alter its dimensions to fill the available space</td>
+                        </tr>
+                        <tr>
+                            <td><code>justify-content</code></td>
+                            <td>Defines the alignment along the main axis</td>
+                        </tr>
+                        <tr>
+                            <td><code>align-items</code></td>
+                            <td>Defines the alignment along the cross axis</td>
+                        </tr>
+                        <tr>
+                            <td><code>gap</code></td>
+                            <td>Specifies the gap between flex items</td>
+                        </tr>
+                        <tr>
+                            <td><code>text-align</code></td>
+                            <td>Specifies the horizontal alignment of text</td>
+                        </tr>
+                        <tr>
+                            <td><code>border-radius</code></td>
+                            <td>Defines the radius of the element's corners</td>
+                        </tr>
+                        <tr>
+                            <td><code>text-decoration</code></td>
+                            <td>Adds decoration to text, such as underline or strikethrough</td>
+                        </tr>
+                        <tr>
+                            <td><code>cursor</code></td>
+                            <td>Specifies the type of cursor to be displayed when hovering over an element</td>
+                        </tr>
+                    </table>
+                </div>
+        </section>
+
+        <section id="contact">
+            <p class="section__text__p1">GET IN TOUCH</p>
+            <h1 class="title">Contact me</h1>
+            <div class="contact-info-upper-container">
+                <div class="contact-info-container">
+                    <img 
+                    src="./assets/email.png" 
+                    alt="Email icon" 
+                    class="icon contact-icon email-icon"/>
+                    <p><a href="mailto:matheusneves.m@gmail.com">matheusneves.m@gmail.com</a></p>
+                </div>
+                <div class="contact-info-container">
+                    <img 
+                    src="./assets/linkedin.png" 
+                    alt="LinkedIn icon" 
+                    class="icon contact-icon"/>
+                    <p><a href="https://www.linkedin.com/in/matheusnevesm">LinkedIn</a></p>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <p>Copyright &#169; 2024 Matheus Neves. All Rights Reserved.</p>
+        </footer>
+
+  </body>
+</html>

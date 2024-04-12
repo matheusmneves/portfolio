@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="styles.css" />
+        <title>Matheus Neves</title>
+    </head>
+    <body>
+
+        <nav>
+            <div class="nav__content">
+                <div class="logo"><a href="#">Matheus Neves</a></div>
+                <label for="check" class="checkbox">
+                    <i class="ri-menu-line"></i>
+                </label>
+                <input type="checkbox" name="check" id="check" />
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#cheatsheet">Cheat sheet</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <section id="profile">
+            <div class="section__container">
+                <div class="image">
+                    <img src="assets/about-pic.png" alt="profile" />
+                </div>
+                <div class="content">
+                    <p class="subtitle">HELLO</p>
+                    <h1 class="profile-title">
+                        I'm <span>Matheus<br/></span> Data, Product and Developer
+                    </h1>
+                    <p class="description">
+                        Computer Engineer and Software Developer student.
+                    </p>
+                    <div class="action__btns">
+                        <a href="https://github.com/matheusmneves"><button class="btn_hover">Github</button></a>
+                        <button class="btn-bf" onclick="window.open('./assets/Product Manager - Matheus M. Neves.pdf')">Download CV</button>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="about">
+            <br/><br/><p class="section__text__p1">GET TO KNOW MORE</p>
+            <h1 class="title">About me</h1>
+            <div class="section-container">
+                <div class="about-details-container">
+                    <div class="about-containers">
+                        <div class="details-container">
+                            <img src="./assets/experience.png" alt="experience-icon" class="icon">
+                            <h3>Data</h3>
+                            <p>5+ years <br/>BI Solutions</p>
+                        </div>
+                        <div class="details-container">
+                            <img src="./assets/experience.png" alt="experience-icon" class="icon">
+                            <h3>Product</h3>
+                            <p>3+ years <br/>Product Manager</p>
+                        </div>
+                        <div class="details-container">
+                            <img src="./assets/experience.png" alt="experience-icon" class="icon">
+                            <h3>Developer</h3>
+                            <p>1 year <br/>Full stack dev</p>
+                        </div>
+                        <div class="details-container">
+                            <img src="./assets/education.png" alt="education-icon" class="icon">
+                            <h3>Education</h3>
+                            <p>Computer Engineering <br/>Software Development</p>
+                        </div>
+                    </div>
+                    <div class="description">
+                        <p>Passionate about technology, innovation, and leveraging technical solutions to drive business outcomes. Proficient in data analysis and product management methodologies, with expertise in agile practices and product management. Skilled in utilizing data science tools for strategic decision-making and optimizing operational processes.</p>
+                    </div>
+                    <h4 class="graduation">
+                        Graduation on  Wednesday, April 30, 2025.
+                    </h4><br/>
+                    <div class="countdown">
+                        <div class="deadline">
+                            <div class="deadline-format">
+                                <div>
+                                    <h4 class="days">34</h4>
+                                    <span>days</span>
+                                </div>
+                            </div>
+                            <div class="deadline-format">
+                                <div>
+                                    <h4 class="hours">12</h4>
+                                    <span>hours</span>
+                                </div>
+                            </div>
+                            <div class="deadline-format">
+                                <div>
+                                    <h4 class="minutes">27</h4>
+                                    <span>minutes</span>
+                                </div>
+                            </div>
+                            <div class="deadline-format">
+                                <div>
+                                    <h4 class="seconds">20</h4>
+                                    <span>seconds</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="cheatsheet">
+            <br/><br/><br/><br/><p class="section__text__p1">DISCOVER HOW I BUILD THIS WEBSITE</p>
+            <h1 class="title">Cheat Sheet</h1>
+            <div class="section-container">
+                <div class="experience-details-container">
+                    <div class="about-containers">
+                        <div class="details-container color-container">
+                            <div class="article-container">
+                                <img src="./assets/html.jpeg" alt="HTML" class="project-img">
+                            </div>
+                            <h2 class="experience-sub-title project-title">HTML</h2>
+                            <div class="btn-container">
+                                <button class="btn btn-color-2 project-btn" onclick="location.href='./htmlsheet.html'">
+                                    Go to page
+                                </button>
+                            </div>
+                        </div>
+                    <div class="details-container color-container">
+                        <div class="article-container">
+                            <img src="./assets/css.jpg" alt="CSS" class="project-img">
+                        </div>
+                        <h2 class="experience-sub-title project-title">CSS</h2>
+                        <div class="btn-container">
+                            <button class="btn btn-color-2 project-btn" onclick="location.href='./csssheet.html'">
+                                Go to page
+                            </button>
+                        </div>
+                    </div>
+                    <div class="details-container color-container">
+                        <div class="article-container">
+                            <img src="./assets/javascript.jpg" alt="JS" class="project-img">
+                        </div>
+                        <h2 class="experience-sub-title project-title">Javascript</h2>
+                        <div class="btn-container">
+                            <button class="btn btn-color-2 project-btn" onclick="location.href='./jssheet.html'">
+                                Go to page
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <p class="section__text__p1">GET IN TOUCH</p>
+            <h1 class="title">Contact me</h1>
+            <div class="contact-info-upper-container">
+                <div class="contact-info-container">
+                    <img 
+                    src="./assets/email.png" 
+                    alt="Email icon" 
+                    class="icon contact-icon email-icon"/>
+                    <p><a href="mailto:matheusneves.m@gmail.com">matheusneves.m@gmail.com</a></p>
+                </div>
+                <div class="contact-info-container">
+                    <img 
+                    src="./assets/linkedin.png" 
+                    alt="LinkedIn icon" 
+                    class="icon contact-icon"/>
+                    <p><a href="https://www.linkedin.com/in/matheusnevesm">LinkedIn</a></p>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <p>Copyright &#169; 2024 Matheus Neves. All Rights Reserved.</p>
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+</html>

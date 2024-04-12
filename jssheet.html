@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+        href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
+        rel="stylesheet"
+        />
+        <link rel="stylesheet" href="styles.css" />
+        <title>JS Cheat Sheet</title>
+    </head>
+    <body>
+
+        <nav>
+            <div class="nav__content">
+                <div class="logo"><a href="#">Matheus Neves</a></div>
+                <label for="check" class="checkbox">
+                    <i class="ri-menu-line"></i>
+                </label>
+                <input type="checkbox" name="check" id="check" />
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="#">Cheat sheet</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <section id="sheet">
+            <p class="section__text__p1">GET TO KNOW MORE</p>
+            <h1 class="title">JS Cheat Sheet</h1><br/>
+                <div class="about-details-container">
+                    <table>
+                        <tr>
+                            <th>Command</th>
+                            <th>Description</th>
+                        </tr>
+                        <tr>
+                            <td><code>console.log()</code></td>
+                            <td>Outputs a message to the browser console.</td>
+                        </tr>
+                        <tr>
+                            <td><code>document.getElementById()</code></td>
+                            <td>Returns the element with the specified ID.</td>
+                        </tr>
+                        <tr>
+                            <td><code>document.querySelector()</code></td>
+                            <td>Returns the first element that matches a specified CSS selector.</td>
+                        </tr>
+                        <tr>
+                            <td><code>document.createElement()</code></td>
+                            <td>Creates a new HTML element.</td>
+                        </tr>
+                        <tr>
+                            <td><code>element.innerHTML</code></td>
+                            <td>Gets or sets the HTML content of an element.</td>
+                        </tr>
+                        <tr>
+                            <td><code>element.classList.add()</code></td>
+                            <td>Adds one or more classes to an element.</td>
+                        </tr>
+                        <tr>
+                            <td><code>element.classList.remove()</code></td>
+                            <td>Removes one or more classes from an element.</td>
+                        </tr>
+                        <tr>
+                            <td><code>element.addEventListener()</code></td>
+                            <td>Attaches an event handler to the specified element.</td>
+                        </tr>
+                        <tr>
+                            <td><code>window.onload()</code></td>
+                            <td>Specifies a function to run after the document has been loaded.</td>
+                        </tr>
+                        <tr>
+                            <td><code>setTimeout()</code></td>
+                            <td>Calls a function or evaluates an expression after a specified number of milliseconds.</td>
+                        </tr>
+                        <tr>
+                            <td><code>setInterval()</code></td>
+                            <td>Repeats a function or executes an expression at specified intervals.</td>
+                        </tr>
+                        <tr>
+                            <td><code>JSON.stringify()</code></td>
+                            <td>Converts a JavaScript object into a JSON string.</td>
+                        </tr>
+                        <tr>
+                            <td><code>JSON.parse()</code></td>
+                            <td>Parses a JSON string, constructing the JavaScript value or object described by the string.</td>
+                        </tr>
+                        <tr>
+                            <td><code>typeof</code></td>
+                            <td>Returns the type of a variable or expression.</td>
+                        </tr>
+                        <tr>
+                            <td><code>var</code>, <code>let</code>, <code>const</code></td>
+                            <td>Keywords used to declare variables.</td>
+                        </tr>
+                        <tr>
+                            <td><code>function</code></td>
+                            <td>Declares a function.</td>
+                        </tr>
+                        <tr>
+                            <td><code>if...else</code></td>
+                            <td>Conditionally executes code based on a condition.</td>
+                        </tr>
+                        <tr>
+                            <td><code>for</code>, <code>while</code></td>
+                            <td>Loops that execute code repeatedly.</td>
+                        </tr>
+                        <tr>
+                            <td><code>try...catch</code></td>
+                            <td>Handles errors in code blocks.</td>
+                        </tr>
+                        <tr>
+                            <td><code>return</code></td>
+                            <td>Exits a function and specifies a value to be returned to the caller.</td>
+                        </tr>
+                        <tr>
+                            <td><code>NaN</code></td>
+                            <td>Represents "Not-a-Number".</td>
+                        </tr>
+                        <tr>
+                            <td><code>null</code></td>
+                            <td>Represents the intentional absence of any object value.</td>
+                        </tr>
+                        <tr>
+                            <td><code>undefined</code></td>
+                            <td>Represents an undefined value.</td>
+                        </tr>
+                        <tr>
+                            <td><code>this</code></td>
+                            <td>Refers to the current object in a method or constructor.</td>
+                        </tr>
+                        <tr>
+                            <td><code>new</code></td>
+                            <td>Creates an instance of a user-defined object type or built-in object type.</td>
+                        </tr>
+                        <tr>
+                            <td><code>Object.keys()</code></td>
+                            <td>Returns an array of a given object's own enumerable property names.</td>
+                        </tr>
+                        <tr>
+                            <td><code>new Date()</code></td>
+                            <td>Creates a new Date object representing the current date and time.</td>
+                        </tr>
+                        <tr>
+                            <td><code>new Date(year, month, day, hours, minutes, seconds, milliseconds)</code></td>
+                            <td>Creates a new Date object with the specified date and time components.</td>
+                        </tr>
+                        <tr>
+                            <td><code>getTime()</code></td>
+                            <td>Returns the numeric value corresponding to the time for the specified date according to universal time.</td>
+                        </tr>
+                        <tr>
+                            <td><code>clearInterval()</code></td>
+                            <td>Clears a timer set with the setInterval() method.</td>
+                        </tr>
+                        <tr>
+                            <td><code>Math.floor()</code></td>
+                            <td>Returns the largest integer less than or equal to a given number.</td>
+                        </tr>
+                        <tr>
+                            <td><code>Math.random()</code></td>
+                            <td>Returns a random number between 0 (inclusive) and 1 (exclusive).</td>
+                        </tr>
+                    </table>
+                </div>
+        </section>
+
+        <section id="contact">
+            <p class="section__text__p1">GET IN TOUCH</p>
+            <h1 class="title">Contact me</h1>
+            <div class="contact-info-upper-container">
+                <div class="contact-info-container">
+                    <img 
+                    src="./assets/email.png" 
+                    alt="Email icon" 
+                    class="icon contact-icon email-icon"/>
+                    <p><a href="mailto:matheusneves.m@gmail.com">matheusneves.m@gmail.com</a></p>
+                </div>
+                <div class="contact-info-container">
+                    <img 
+                    src="./assets/linkedin.png" 
+                    alt="LinkedIn icon" 
+                    class="icon contact-icon"/>
+                    <p><a href="https://www.linkedin.com/in/matheusnevesm">LinkedIn</a></p>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <p>Copyright &#169; 2024 Matheus Neves. All Rights Reserved.</p>
+        </footer>
+
+  </body>
+</html>
